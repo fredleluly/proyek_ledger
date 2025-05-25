@@ -26,16 +26,22 @@ SECRET_KEY = 'django-insecure-bl$)e_ny(26$%(1hbc2tc#_+mwv(1s#7ng!)l)trcuy9(&(5my
 DEBUG = True
 
 ALLOWED_HOSTS = ['*',
-                 'localhost',
     '127.0.0.1',
     'ngrok-free.app',
+    'localhost',
+    '192.168.1.8',
+    '103.86.153.71',
+    'www.matanauniversity.ac.id',
+    'matanauniversity.ac.id',
+    'manajemen.matanauniversity.ac.id',
     '7262-66-96-225-72.ngrok-free.app', # <-- Ganti dengan URL ngrok Anda
     'ec34-180-254-66-21.ngrok-free.app' # <-- Ganti dengan URL ngrok Anda
                  ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://7262-66-96-225-72.ngrok-free.app', # <-- Tambahkan URL ngrok Anda (dengan https://)
-    'https://ec34-180-254-66-21.ngrok-free.app' # <-- Tambahkan URL ngrok Anda (dengan https://)
+    'https://ec34-180-254-66-21.ngrok-free.app', # <-- Tambahkan URL ngrok Anda (dengan https://)
+    'https://cms-2sn7d.kinsta.app/', 'https://cms-2sn7d.kinsta.app/', 'https://*.kinsta.app','https://*.127.0.0.1', 'https://www.matanauniversity.ac.id/'
 ]
 
 
